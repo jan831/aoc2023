@@ -52,7 +52,7 @@ fun main() {
             }
 
             var t = 1
-            minByColor.forEach() { t*=it.value }
+            minByColor.forEach { t*=it.value }
 println(t)
 
             t
